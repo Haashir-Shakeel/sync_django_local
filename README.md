@@ -8,7 +8,7 @@ when it can reach it.
 In production the same design runs **inside a Flutter app**: Django is embedded with
 [serious_python](https://pub.dev/packages/serious_python), the Flutter UI calls it over
 localhost, and the sync loop runs in a background thread. `main.py` is that embedded entry point.
-The write-up: [Offline-first sync for a Django POS](<write-up link>).
+The write-up: [Offline-first sync for a Django POS](https://haashir.netlify.app/project.html?p=offline-sync).
 
 ## How it works
 
